@@ -1,0 +1,20 @@
+#端口号
+#Eureka实例名，集群中根据这里相互识别
+eureka:
+  instance:
+    hostname: localhost
+
+#客户端
+  client:
+    fetch-registry: false #禁止向注册中注入自己
+    register-with-eureka: false #由于注册中心的职责就是维护服务实例,它并不需要去检索服务,所以也设置为false
+  server:
+    enable-self-preservation: false #关闭保护机制，以确保注册中心将不可用的实例正确剔除
+    eviction-interval-timer-in-ms: 5000 #（代表是5秒，单位是毫秒,清理失效服务的间隔 ）
+server:
+  port: 8080
+spring:
+  security:
+    user:
+      password: chenyx135
+      name: chenyx
