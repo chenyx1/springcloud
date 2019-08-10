@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo/springboot-demo.iml" filepath="$PROJECT_DIR$/springboot-demo/springboot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-consumer/springcloud-eureka-consumer.iml" filepath="$PROJECT_DIR$/springcloud-eureka-consumer/springcloud-eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-provider/springcloud-eureka-provider.iml" filepath="$PROJECT_DIR$/springcloud-eureka-provider/springcloud-eureka-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server01/springcloud-eureka-server01.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server01/springcloud-eureka-server01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server02/springcloud-eureka-server02.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server02/springcloud-eureka-server02.iml" />
     </modules>
   </component>
 </project>

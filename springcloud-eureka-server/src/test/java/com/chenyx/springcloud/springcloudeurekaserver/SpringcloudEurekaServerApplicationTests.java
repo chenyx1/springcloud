@@ -11,6 +11,7 @@ public class SpringcloudEurekaServerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("SpringcloudEurekaServerApplicationTests load....");
 	}
 
 }

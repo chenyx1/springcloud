@@ -1,0 +1,23 @@
+#端口号
+#Eureka实例名，集群中根据这里相互识别
+eureka:
+  instance:
+    hostname: springcloud-eureka-server01
+
+#客户端
+  client:
+    fetch-registry: true #禁止向注册中注入自己
+    register-with-eureka: true #由于注册中心的职责就是维护服务实例,它并不需要去检索服务,所以也设置为false
+    service-url:
+     defaultZone: http://chenyx:chenyx135@springcloud-eureka-server:8080/eureka/,http://jake:jake135@springcloud-eureka-server02:8084/eureka/
+
+  server:
+    enable-self-preservation: true #关闭保护机制，以确保注册中心将不可用的实例正确剔除
+    eviction-interval-timer-in-ms: 5000 #（代表是5秒，单位是毫秒,清理失效服务的间隔 ）
+server:
+  port: 8083
+spring:
+  security:
+    user:
+      password: xiaopei135  #spring security 提供授权认证
+      name: xiaopei
