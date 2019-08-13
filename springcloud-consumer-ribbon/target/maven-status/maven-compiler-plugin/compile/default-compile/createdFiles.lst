@@ -1,0 +1,5 @@
+com\chenyx\ribbon\config\RibbonConfig.class
+com\chenyx\springcloud\SpringcloudRibbonApplication.class
+com\chenyx\springcloud\config\RestTemplateConfig.class
+com\chenyx\springcloud\constant\ServerConstant.class
+com\chenyx\springcloud\controller\ConsumerRibbonController.class

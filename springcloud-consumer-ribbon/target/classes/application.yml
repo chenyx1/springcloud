@@ -1,0 +1,15 @@
+server:
+  servlet:
+    context-path: /spring-consumer-ribbon
+  port: 8085
+
+eureka:
+ client:
+    fetch-registry: true #在本地缓存所有实例注册信息
+    register-with-eureka: false #禁止向注册中注入自己
+    service-url:
+         defaultZone: http://chenyx:chenyx135@springcloud-eureka-server:8080/eureka/,http://jake:jake135@springcloud-eureka-server02:8084/eureka/,http://xiaopei:xiaopei135@springcloud-eureka-server01:8083/eureka/
+
+
+
+
