@@ -1,0 +1,10 @@
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\SpringcloudZkFeignApplication.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\config\DashBoardConfig.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\api\remote\service\IHystrixZkService.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\controller\ConsumerHystrixController.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\ribbon\config\RibbonConfig.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\controller\ConsumerZkHystrixController.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\ribbon\rule\DefineRule.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\api\remote\fallback\ZkProviderHystrixFallBack.java
+D:\study\java\idea_project\springcloud\springcloud-zk-consumer\src\main\java\com\chenyx\springcloud\feign\api\remote\service\IZkProviderHystrixService.java

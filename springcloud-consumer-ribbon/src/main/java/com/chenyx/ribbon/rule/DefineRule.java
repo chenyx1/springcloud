@@ -42,7 +42,7 @@ public class DefineRule extends AbstractLoadBalancerRule{
             if (serverCount == 0) {
                 return null;
             }
-            //private int total = 0; // 总共被调用的次数，目前要求每台被调用5次
+            //private int total = 0; // 总共被调用的次数，目前要求每台被调用2次
             //private int currentIndex = 0; // 当前提供服务的机器号
             if (total < 2) {
                 server = upList.get(currentIndex);

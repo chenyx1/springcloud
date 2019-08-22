@@ -1,0 +1,9 @@
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\constant\ServerConstant.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\api\remote\service\IEurekaService.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\api\remote\service\IHystrixEurekaService.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\SpringcloudFeignApplication.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\controller\ConsumerHystrixController.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\ribbon\rule\DefineRule.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\ribbon\config\RibbonConfig.java
+D:\study\java\idea_project\springcloud\springcloud-consumer-feign\src\main\java\com\chenyx\springcloud\feign\controller\ConsumerFeignController.java

@@ -1,0 +1,27 @@
+server:
+  servlet:
+    context-path: /spring-zk-consumer
+  port: 8090
+
+spring:
+  application:
+    name: spring-zk-consumer
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true #启动zk服务发现
+        instance-id:  ${spring.application.name}:${server.port}
+       # instance-host: 132.126.2.209 #默认为application-name:port
+      connect-string: 192.168.80.129:2181    #连接zk注册中心,集群有“，”分割
+
+feign:
+  hystrix:
+    enabled: true #开启熔断
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # 或者'*'
+
+

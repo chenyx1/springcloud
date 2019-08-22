@@ -1,5 +1,6 @@
-com\chenyx\ribbon\config\RibbonConfig.class
-com\chenyx\springcloud\SpringcloudRibbonApplication.class
+com\chenyx\ribbon\rule\DefineRule.class
 com\chenyx\springcloud\config\RestTemplateConfig.class
 com\chenyx\springcloud\constant\ServerConstant.class
-com\chenyx\springcloud\controller\ConsumerRibbonController.class
+com\chenyx\springcloud\hystrix\controller\ConsumerRibbonController.class
+com\chenyx\ribbon\config\RibbonConfig.class
+com\chenyx\springcloud\SpringcloudRibbonApplication.class

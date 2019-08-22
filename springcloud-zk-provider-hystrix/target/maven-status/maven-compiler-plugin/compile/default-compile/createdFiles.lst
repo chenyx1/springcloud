@@ -1,0 +1,4 @@
+com\chenyx\springcloud\config\DashBoardConfig.class
+com\chenyx\springcloud\controller\ZkController.class
+com\chenyx\springcloud\controller\HystrixController.class
+com\chenyx\springcloud\SpringcloudZkProviderHystrixApplication.class

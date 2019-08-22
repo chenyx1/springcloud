@@ -1,0 +1,3 @@
+com\chenyx\springcloud\hystrix\controller\HystrixController.class
+com\chenyx\springcloud\SpringcloudProviderHystrixApplication.class
+com\chenyx\springcloud\hystrix\controller\EurekaController.class

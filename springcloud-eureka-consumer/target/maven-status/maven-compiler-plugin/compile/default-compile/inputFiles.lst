@@ -1,5 +1,5 @@
 D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\config\ServerConfig.java
 D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\util\RestTemplateUtil.java
 D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\SpringCloudEurekaConsumerApplication.java
+D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\hystrix\controller\ConsumerController.java
 D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\config\RestTemplateConfig.java
-D:\study\java\idea_project\springcloud\springcloud-eureka-consumer\src\main\java\com\chenyx\springcloud\controller\ConsumerController.java

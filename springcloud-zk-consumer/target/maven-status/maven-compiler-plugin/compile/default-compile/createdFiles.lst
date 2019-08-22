@@ -1,0 +1,12 @@
+com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack.class
+com\chenyx\springcloud\feign\api\remote\fallback\ZkProviderHystrixFallBack$1.class
+com\chenyx\springcloud\feign\controller\ConsumerHystrixController.class
+com\chenyx\springcloud\ribbon\rule\DefineRule.class
+com\chenyx\springcloud\feign\api\remote\service\IZkProviderHystrixService.class
+com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack$1.class
+com\chenyx\springcloud\feign\config\DashBoardConfig.class
+com\chenyx\springcloud\ribbon\config\RibbonConfig.class
+com\chenyx\springcloud\feign\api\remote\fallback\ZkProviderHystrixFallBack.class
+com\chenyx\springcloud\feign\SpringcloudZkFeignApplication.class
+com\chenyx\springcloud\feign\api\remote\service\IHystrixZkService.class
+com\chenyx\springcloud\feign\controller\ConsumerZkHystrixController.class

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springcloud-zk-provider
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true #启动zk服务发现
+      connect-string: 192.168.80.129:2181    #连接zk注册中心,集群有“，”分割
+
+server:
+  port: 8089
+  servlet:
+    context-path: /springcloud-zk-provider
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # 或者'*'

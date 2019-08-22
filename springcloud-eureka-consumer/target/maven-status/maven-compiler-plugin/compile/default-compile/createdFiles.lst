@@ -1,6 +1,6 @@
+com\chenyx\springcloud\hystrix\controller\ConsumerController.class
 com\chenyx\springcloud\config\RestTemplateConfig.class
 com\chenyx\springcloud\util\RestTemplateUtil.class
 com\chenyx\springcloud\config\ServerConfig.class
-com\chenyx\springcloud\controller\ConsumerController.class
 com\chenyx\springcloud\SpringCloudEurekaConsumerApplication.class
 META-INF\spring-configuration-metadata.json

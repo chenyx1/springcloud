@@ -1,0 +1,10 @@
+com\chenyx\springcloud\feign\api\remote\service\IHystrixEurekaService.class
+com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack$1.class
+com\chenyx\springcloud\feign\api\remote\fallback\HyStrixFallBack.class
+com\chenyx\springcloud\ribbon\config\RibbonConfig.class
+com\chenyx\springcloud\feign\api\remote\service\IEurekaService.class
+com\chenyx\springcloud\feign\controller\ConsumerHystrixController.class
+com\chenyx\springcloud\ribbon\rule\DefineRule.class
+com\chenyx\springcloud\feign\controller\ConsumerFeignController.class
+com\chenyx\springcloud\constant\ServerConstant.class
+com\chenyx\springcloud\feign\SpringcloudFeignApplication.class
