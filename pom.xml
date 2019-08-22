@@ -21,6 +21,13 @@
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <eureka-server.version>2.1.2.RELEASE</eureka-server.version>
         <eureka-client.version>2.1.2.RELEASE</eureka-client.version>
+        <ribbon.version>2.1.2.RELEASE</ribbon.version>
+        <feign.version>2.1.2.RELEASE</feign.version>
+        <springcloud-zookeeper.version>2.1.2.RELEASE</springcloud-zookeeper.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <hystrix.version>1.4.7.RELEASE</hystrix.version>
+        <hystrix-dashboard.version>1.4.7.RELEASE</hystrix-dashboard.version>
+        <zuul.version>2.1.2.RELEASE</zuul.version>
         <spring-boot-starter.version>2.1.6.RELEASE</spring-boot-starter.version>
         <configuration-processor.version>2.1.6.RELEASE</configuration-processor.version>
     </properties>
@@ -80,8 +87,62 @@
                 <version>${spring-boot-starter.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+                <version>${ribbon.version}</version>
+            </dependency>
+
+            <!--feign-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${feign.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix</artifactId>
+                <version>${hystrix.version}</version>
+            </dependency>
+
+            <!--zookeeper，由于zk服务是3.4.x，与自带就jar不兼容，特需要指定兼容架包-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
+                <version>${springcloud-zookeeper.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.zookeeper</groupId>
+                        <artifactId>zookeeper</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix-dashboard -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+                <version>${hystrix-dashboard.version}</version>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-zuul -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+                <version>${zuul.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
 
     <build>
         <plugins>
@@ -99,6 +160,15 @@
         <module>springcloud-eureka-consumer</module>
         <module>springcloud-eureka-server01</module>
         <module>springcloud-eureka-server02</module>
+        <module>springcloud-consumer-ribbon</module>
+        <module>springcloud-eureka-provider01</module>
+        <module>springcloud-consumer-feign</module>
+        <module>springcloud-provider-hystrix</module>
+        <module>springcloud-zk-provider</module>
+        <module>springcloud-zk-consumer</module>
+        <module>springcloud-hystrix-dashboard</module>
+        <module>springcloud-zk-provider-hystrix</module>
+        <module>springcloud-zk-zuul</module>
     </modules>
 
 
