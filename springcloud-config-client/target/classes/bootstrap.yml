@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springcloud-config-client
+  cloud:
+    config:
+      enabled: true
+      name: configcilent
+      uri: http://localhost:8095
+      label: master
+      profile: test

@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: springcloud-config-client
+server:
+  port: 8096

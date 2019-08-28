@@ -1,1 +1,3 @@
-com\chenyx\springcloud\App.class
+com\chenyx\springcloud\SpringcloudZuulApplication.class
+com\chenyx\springcloud\config\FilterConfig.class
+com\chenyx\springcloud\router\filter\DefineFilter.class

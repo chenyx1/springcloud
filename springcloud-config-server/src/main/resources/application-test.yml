@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:chenyx1/springcloud-config-repo.git #github地址
+          username: chenyx1
+          password: Xiaopei135
+          basedir: D:\study\git\springcloud-config-repo
