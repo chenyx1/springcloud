@@ -28,7 +28,7 @@
         <hystrix.version>1.4.7.RELEASE</hystrix.version>
         <hystrix-dashboard.version>1.4.7.RELEASE</hystrix-dashboard.version>
         <zuul.version>2.1.2.RELEASE</zuul.version>
-        <spring-boot-starter.version>2.1.6.RELEASE</spring-boot-starter.version>
+        <spring-boot-starter.version>2.5.12</spring-boot-starter.version>
         <configuration-processor.version>2.1.6.RELEASE</configuration-processor.version>
     </properties>
 
