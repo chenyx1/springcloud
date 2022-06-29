@@ -24,7 +24,7 @@
         <ribbon.version>2.1.2.RELEASE</ribbon.version>
         <feign.version>2.1.2.RELEASE</feign.version>
         <springcloud-zookeeper.version>2.1.2.RELEASE</springcloud-zookeeper.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <hystrix.version>1.4.7.RELEASE</hystrix.version>
         <hystrix-dashboard.version>1.4.7.RELEASE</hystrix-dashboard.version>
         <zuul.version>2.1.2.RELEASE</zuul.version>
